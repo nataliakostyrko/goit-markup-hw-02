@@ -1,0 +1,35 @@
+body {
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    color:#434455;
+    background:#FFFFFF;
+    size: 16px;
+    line-height: 0,5 ;
+    }
+    ul{
+        list-style-type: none;
+        }
+   .web.logo-text {
+        color: #4D5AE5;
+        background-color: #FFFFFF;
+        font-family: Raleway;
+        font-size: 18px;
+        line-height: 1.166;
+        letter-spacing: 0.54px;
+    } 
+    .studio.logo-text {
+        
+        color: #2E2F42;
+        background-color: #FFFFFF;
+    }
+    .page-nav .link {
+        color:#2E2F42;
+    }
+     .page-nav .link:hover {
+        color:#404BBF;
+     }
+     .address-nav.link {
+        color: #434455;
+     }
+    .address-nav .link:hover {
+        color: #404BBF;
+    }
