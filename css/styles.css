@@ -1,35 +1,108 @@
 body {
-    font-family: 'Roboto', 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color:#434455;
     background:#FFFFFF;
-    size: 16px;
-    line-height: 0,5 ;
-    }
+}
     ul{
         list-style-type: none;
         }
-   .web.logo-text {
-        color: #4D5AE5;
-        background-color: #FFFFFF;
+    a{
+        text-decoration: none;
+    }    
+
+
+   .logo-nav-footer {
+    
         font-family: Raleway;
+        font-weight: 700;
         font-size: 18px;
-        line-height: 1.166;
-        letter-spacing: 0.54px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4D5AE5;
     } 
-    .studio.logo-text {
-        
-        color: #2E2F42;
-        background-color: #FFFFFF;
-    }
-    .page-nav .link {
-        color:#2E2F42;
-    }
-     .page-nav .link:hover {
-        color:#404BBF;
-     }
-     .address-nav.link {
-        color: #434455;
-     }
-    .address-nav .link:hover {
-        color: #404BBF;
-    }
+.accent-logo {
+            color:#2e2f42 ;
+        }
+.navigation {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.navigation:hover, .navigation:focus{
+color: #404bbf
+}
+.header-address{
+    font-style: normal;
+}
+
+.header-contacts{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.header-contacts:hover, .header-contacts:focus{
+    color: #404bbf;
+}
+.hero-section{
+    background-color: #2e2f42;
+}
+.title-text{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.button-section
+{
+    background-color: #4D5AE5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    cursor: pointer;
+}    
+.button-section:hover, .button-section:focus{
+    background-color: #404bbf;
+}
+.advantages-section
+{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+
+}
+.section-strategy
+{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.paragraf-section{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.footer-section{
+    background-color: #2e2f42;
+}
+.accent-footer-logo{
+    color: #F4F4FD;
+}
+.footer-paragraf{
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+}
