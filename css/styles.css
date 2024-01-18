@@ -71,7 +71,7 @@ a  {
 .button-section:hover, .button-section:focus{
     background-color: #404bbf;
 }
-.section-text{
+.our-section {
     background-color: #F4F4FD;
 }
 .advantages-section {
@@ -82,8 +82,6 @@ a  {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-
-
 }
 .section-strategy {
 
